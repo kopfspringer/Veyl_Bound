@@ -32,7 +32,7 @@ MonoBehaviour:
       - {fileID: 11400000, guid: cb7cf6d4651f3d24b9132b90c8413d05, type: 2}
       - {fileID: 11400000, guid: 55badb16761832c4285bec4192bccef7, type: 2}
       - {fileID: 11400000, guid: 9c1b55b4bcc567647a3f1b30c8ba3ded, type: 2}
-      - {fileID: 11400000, guid: a77fda4794e5c2d45a6350d7ec078486, type: 2}
-      - {fileID: 11400000, guid: 9905d94ead2b7584293b6de0195baf23, type: 2}
+      - {fileID: 11400000, guid: c48664163259565449278a23b8d88363, type: 2}
+      - {fileID: 11400000, guid: 2dea8932b86ed8b48a5854e31612ec27, type: 2}
     encrypted: 0
   sortAtEnd: 0

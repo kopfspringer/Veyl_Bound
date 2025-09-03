@@ -16,11 +16,11 @@ MonoBehaviour:
   lastSaveFormat: 0
   lastEncrypted: 0
   editorHelpLanguageTexts: {fileID: 0}
-  section: 9
-  subSection: 0
-  tabIndex: -1
-  scrollY: 60
-  foldoutLimit: 
+  section: 7
+  subSection: 5
+  tabIndex: 0
+  scrollY: 710
+  foldoutLimit: Inventory & Equipment
   helpDrag: 220
   subSectionDrag: 250
   tabListDrag: 250
