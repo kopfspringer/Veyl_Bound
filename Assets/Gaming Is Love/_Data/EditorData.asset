@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 619879560, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: EditorData
+  m_EditorClassIdentifier: 
+  lastProject: {fileID: 11400000, guid: 17f4558f5d7a8c04a92de8cea116cce7, type: 2}
+  lastSaveFormat: 0
+  lastEncrypted: 0
+  editorHelpLanguageTexts: {fileID: 0}
+  section: 9
+  subSection: 0
+  tabIndex: -1
+  scrollY: 60
+  foldoutLimit: 
+  helpDrag: 220
+  subSectionDrag: 250
+  tabListDrag: 250
+  formulaDrag: 307
+  schematicDrag: 400
+  jumpListDrag: 250
+  dataSelectionSorting: 0
+  typeDataSelectionSorting: 0
+  createBackup: 0
+  updateSchematics: 1
+  schematicUpdateFolder: 
+  updatePrefabs: 0
+  updateScenes: 0
+  sceneUpdate: 
+  schematicAsset:
+  - {fileID: 11400000, guid: 5c61c3561c1a4b846af2fe63a3c642b6, type: 2}
+  - {fileID: 11400000, guid: 6c18fae1e63fb004b88acf7c99e49093, type: 2}
+  - {fileID: 11400000, guid: 2266043b9f18e1b479787428bed873ab, type: 2}
+  - {fileID: 11400000, guid: 98a1aa5b78cf644468a01c22736c6857, type: 2}
+  - {fileID: 11400000, guid: 8b2e6d6086eff734d9f0b8f761df9370, type: 2}
+  - {fileID: 11400000, guid: bf3801af564b188498b6928f8a4b2081, type: 2}
+  - {fileID: 11400000, guid: caf7e3b7f44045143ba69d7ab80685ba, type: 2}
+  - {fileID: 11400000, guid: b70498f9b9000e245ae4038b66580b6c, type: 2}
+  - {fileID: 11400000, guid: 1359ccc12fc809b4c81686e0bcaafd1b, type: 2}
+  - {fileID: 11400000, guid: a6d9263207d289b4ca2ba08cbde4568c, type: 2}
+  - {fileID: 11400000, guid: 1e0000d08d05a5248b97ab65d47bfba1, type: 2}
+  - {fileID: 11400000, guid: 5dfc2a55ce2aeb24a81262ff226063e7, type: 2}
+  - {fileID: 11400000, guid: 688a3a67d22a0854b8248bd30ade30a9, type: 2}
+  - {fileID: 11400000, guid: 23fec5434ccdc2d479868d19211b2b85, type: 2}
+  - {fileID: 11400000, guid: 5e5122f06446a0744853c935a2ccd6e5, type: 2}
+  - {fileID: 11400000, guid: 7d5eaa117a167ac42866bae2160c971d, type: 2}
+  - {fileID: 11400000, guid: a2e9febf175eeae4da87a353f2ca18ae, type: 2}
+  - {fileID: 11400000, guid: baa2343fdce3ffa4bbcc15d0671768e5, type: 2}
+  - {fileID: 11400000, guid: 66a0fed64122a2949b0350091c84e451, type: 2}
+  - {fileID: 11400000, guid: a9e134cc3264e9949b139cc267f9cd5f, type: 2}
+  dialogueImportSettings:
+    name: 
+    byteData: 
+    xmlData: 
+    lookUp:
+      assets: []
+    encrypted: 0
+  variablesDefined: []
+  variablesEditor: []
+  variablesSchematic:
+  - ui
+  - useCamera
+  - wait
+  - counter
+  variablesScene: []
+  variablesPrefab: []
+  foldoutKeys: []
+  foldoutStates: []
+  popupFavorites: []

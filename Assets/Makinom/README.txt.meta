@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 65ac1d21cd12a6042b68dd5947d1892e
+timeCreated: 1433237559
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102686
+  packageName: 'Makinom Free: Game Toolkit'
+  packageVersion: 1.19.0
+  assetPath: Assets/Makinom/README.txt
+  uploadId: 497263

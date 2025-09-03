@@ -1,0 +1,36 @@
+fileFormatVersion: 2
+guid: fc41648e0c222644a85dd85001ff1da2
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102686
+  packageName: 'Makinom Free: Game Toolkit'
+  packageVersion: 1.19.0
+  assetPath: Assets/Makinom/DLL/Makinom.dll
+  uploadId: 497263
+PluginImporter:
+  externalObjects: {}
+  serializedVersion: 3
+  iconMap: {}
+  executionOrder:
+    Makinom.Behaviours.CollisionCamera: 1100
+    Makinom.Behaviours.GameStarter: -100
+  defineConstraints: []
+  isPreloaded: 0
+  isOverridable: 0
+  isExplicitlyReferenced: 0
+  validateReferences: 1
+  platformData:
+    Any:
+      enabled: 1
+      settings: {}
+    Editor:
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+    WindowsStoreApps:
+      enabled: 0
+      settings:
+        CPU: AnyCPU
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
