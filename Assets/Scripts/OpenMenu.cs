@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 /// <summary>
@@ -14,31 +15,33 @@ public class OpenMenu : MonoBehaviour
     private void Awake()
     {
         instance = this;
-        HideMenus();
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        // Beim Betreten des Triggers werden die Kampfmenüs eingeblendet.
+        OpenMenu.instance.ShowBattleMenus();
+    }
+
+    /// <summary>Wurzelobjekt für das Kampfmenü.</summary>
+    public GameObject battleMenu;
 
     /// <summary>Versteckt sämtliche Menüs.</summary>
     public void HideMenus()
     {
-        if (BattleMenu.instance != null)
-        {
-            BattleMenu.instance.Hide();
-        }
+        battleMenu.SetActive(false);
     }
 
     /// <summary>Blendet das Kampfmenü ein.</summary>
     public void ShowBattleMenus()
     {
-        if (BattleMenu.instance != null)
-        {
-            BattleMenu.instance.Show();
-        }
+        battleMenu.SetActive(true);
     }
 
     /// <summary>Wechselt in die Kampfszene.</summary>
     public void EnterBattle()
     {
-        SceneManager.LoadScene("World");
+        SceneManager.LoadScene("Battle_1");
     }
 }
 

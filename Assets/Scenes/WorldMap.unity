@@ -735,8 +735,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8800812fa6ef15741b4dbbd9b4586dd8, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleMenu: {fileID: 0}
 --- !u!1001 &958804129
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1739,8 +1740,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8800812fa6ef15741b4dbbd9b4586dd8, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleMenu: {fileID: 1039823538}
 --- !u!1 &1786032837
 GameObject:
   m_ObjectHideFlags: 0

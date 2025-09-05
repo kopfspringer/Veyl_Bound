@@ -1025,7 +1025,7 @@ MonoBehaviour:
       <_float
       autoStartDelay="0" repeatDelay="0" />
 
-      <_bool isStart="False" isEnable="False"
+      <_bool isStart="True" isEnable="False"
       isDisable="False" isDestroy="False" isLevelWasLoaded="False" repeatExecution="False"
       />
 
@@ -1150,7 +1150,7 @@ MonoBehaviour:
       <triggerStartSetting
       needed="1" layerMask="-1" >
 
-      <_bool isTriggerEnter="True" isTriggerStay="False"
+      <_bool isTriggerEnter="False" isTriggerStay="False"
       isTriggerExit="False" startByCollider="True" startByTrigger="True" startByRoot="False"
       startByOther="False" limitLayers="False" />
 

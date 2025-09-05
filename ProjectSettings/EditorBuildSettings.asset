@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Start Menu.unity
     guid: 62fe7d009787f7d4e836c0c36254e7a5
   - enabled: 1
+    path: Assets/Scenes/WorldMap.unity
+    guid: 5ac5501dead963a46b2336954c1ccbb2
+  - enabled: 1
     path: Assets/Scenes/World.unity
     guid: 77dfe87c63ad3014a942a0d4221e701a
   - enabled: 1
@@ -35,9 +38,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dungeon/Dungeon Level 5.unity
     guid: f1009f8592c6f1a4994099ae0e52e904
-  - enabled: 1
-    path: Assets/Scenes/WorldMap.unity
-    guid: 5ac5501dead963a46b2336954c1ccbb2
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
