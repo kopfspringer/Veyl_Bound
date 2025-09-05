@@ -1,15 +1,15 @@
 using UnityEngine;
 
 /// <summary>
-/// Repräsentiert ein einzelnes Feld im Bewegungsraster.
+/// ReprÃ¤sentiert ein einzelnes Feld im Bewegungsraster.
 /// </summary>
 public class MovePoint : MonoBehaviour
 {
-    /// <summary>Renderer zum Ändern der Farbe des Feldes.</summary>
+    /// <summary>Renderer zum Ã„ndern der Farbe des Feldes.</summary>
     private Renderer rend;
     /// <summary>Standardfarbe des Feldes.</summary>
     private Color defaultColor;
-    /// <summary>Kollisionskomponente, um Klicks zu ermöglichen oder zu blockieren.</summary>
+    /// <summary>Kollisionskomponente, um Klicks zu ermÃ¶glichen oder zu blockieren.</summary>
     private Collider col;
 
     private void Awake()
@@ -18,6 +18,11 @@ public class MovePoint : MonoBehaviour
         rend = GetComponent<Renderer>();
         col = GetComponent<Collider>();
 
+        if (col != null)
+        {
+            col.isTrigger = true;
+        }
+
         if (rend != null)
         {
             defaultColor = rend.material.color;
@@ -25,7 +30,7 @@ public class MovePoint : MonoBehaviour
     }
 
     /// <summary>
-    /// Setzt eine neue Farbe für das Feld.
+    /// Setzt eine neue Farbe fÃ¼r das Feld.
     /// </summary>
     public void SetColor(Color color)
     {
@@ -36,7 +41,7 @@ public class MovePoint : MonoBehaviour
     }
 
     /// <summary>
-    /// Stellt die ursprüngliche Farbe wieder her.
+    /// Stellt die ursprÃ¼ngliche Farbe wieder her.
     /// </summary>
     public void ResetColor()
     {
