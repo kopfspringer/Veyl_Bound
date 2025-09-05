@@ -1,15 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 /// <summary>
-/// Steuert das Öffnen von Menüs und den Übergang in die Kampfszene.
+/// Steuert das Ã–ffnen von MenÃ¼s und den Ãœbergang in die Kampfszene.
 /// </summary>
 public class OpenMenu : MonoBehaviour
 {
-    /// <summary>Singleton-Instanz des Menüs.</summary>
+    /// <summary>Singleton-Instanz des MenÃ¼s.</summary>
     public static OpenMenu instance;
 
     private void Awake()
@@ -17,22 +16,16 @@ public class OpenMenu : MonoBehaviour
         instance = this;
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        // Beim Betreten des Triggers werden die Kampfmenüs eingeblendet.
-        OpenMenu.instance.ShowBattleMenus();
-    }
-
-    /// <summary>Wurzelobjekt für das Kampfmenü.</summary>
+    /// <summary>Wurzelobjekt fÃ¼r das KampfmenÃ¼.</summary>
     public GameObject battleMenu;
 
-    /// <summary>Versteckt sämtliche Menüs.</summary>
+    /// <summary>Versteckt sÃ¤mtliche MenÃ¼s.</summary>
     public void HideMenus()
     {
         battleMenu.SetActive(false);
     }
 
-    /// <summary>Blendet das Kampfmenü ein.</summary>
+    /// <summary>Blendet das KampfmenÃ¼ ein.</summary>
     public void ShowBattleMenus()
     {
         battleMenu.SetActive(true);

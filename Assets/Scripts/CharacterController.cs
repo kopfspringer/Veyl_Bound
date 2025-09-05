@@ -106,7 +106,7 @@ public class CharacterController : MonoBehaviour
             }
         }
 
-        // Wenn der Spieler sein Ziel erreicht hat, wird das Aktionsmenü angezeigt.
+        // Wenn der Spieler sein Ziel erreicht hat, werden passende Menüs angezeigt.
         if (!isEnemy && playerMovePending && Vector3.Distance(transform.position, moveTarget) < 0.01f)
         {
             playerMovePending = false;
@@ -114,7 +114,14 @@ public class CharacterController : MonoBehaviour
 
             if (GameManager.instance.activePlayer == this)
             {
-                ActionMenu.instance.ShowMenu();
+                if (OpenMenu.instance != null)
+                {
+                    OpenMenu.instance.ShowBattleMenus();
+                }
+                else if (ActionMenu.instance != null)
+                {
+                    ActionMenu.instance.ShowMenu();
+                }
             }
         }
 
