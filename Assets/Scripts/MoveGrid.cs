@@ -36,12 +36,8 @@ public class MoveGrid : MonoBehaviour
     {
         Scene currentScene = SceneManager.GetActiveScene();
         string sceneName = currentScene.name;
-        if (sceneName == "Battle_1")
-        {
-            GenerateMoveGrid();
-        }
 
-        if (sceneName == "IntroScene")
+        if (sceneName == "WorldMap")
         {
             OpenMenu.instance.HideMenus();
         }

@@ -55,6 +55,7 @@ public class CharacterController : MonoBehaviour
         }
 
         // Lebensanzeige über dem Charakter erzeugen.
+        /*
         GameObject hpParentObj = new GameObject("HPBar");
         hpParentObj.transform.SetParent(transform);
         hpParentObj.transform.localPosition = hpOffset;
@@ -69,6 +70,7 @@ public class CharacterController : MonoBehaviour
         Destroy(hpFillObj.GetComponent<Collider>());
         hpBarFill = hpFillObj.transform;
         UpdateHPBar();
+        */
         if (isEnemy)
         {
             lastTurnProcessed = GameManager.instance.turnCounter;

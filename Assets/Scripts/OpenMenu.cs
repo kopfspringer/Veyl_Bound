@@ -41,7 +41,7 @@ public class OpenMenu : MonoBehaviour
     /// <summary>Wechselt in die Kampfszene.</summary>
     public void EnterBattle()
     {
-        SceneManager.LoadScene("Battle_1");
+        SceneManager.LoadScene("World");
     }
 }
 
