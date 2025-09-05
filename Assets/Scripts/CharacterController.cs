@@ -10,10 +10,10 @@ public class CharacterController : MonoBehaviour
 {
     /// <summary>Geschwindigkeit, mit der sich die Figur bewegt.</summary>
     public float moveSpeed;
-    /// <summary>Zielposition, die die Figur erreichen möchte.</summary>
+    /// <summary>Zielposition, die die Figur erreichen mÃ¶chte.</summary>
     private Vector3 moveTarget;
 
-    /// <summary>Optionaler NavMeshAgent, falls Navigation über Unitys NavMesh genutzt wird.</summary>
+    /// <summary>Optionaler NavMeshAgent, falls Navigation Ã¼ber Unitys NavMesh genutzt wird.</summary>
     public NavMeshAgent navAgent;
     /// <summary>Gibt an, ob die Figur sich aktuell bewegt.</summary>
     private bool isMoving;
@@ -23,9 +23,9 @@ public class CharacterController : MonoBehaviour
 
     /// <summary>Aktuelle Lebenspunkte der Figur.</summary>
     public int hitPoints = 100;
-    /// <summary>Versatz der Lebensanzeigen-Anzeige über dem Charakter.</summary>
+    /// <summary>Versatz der Lebensanzeigen-Anzeige Ã¼ber dem Charakter.</summary>
     public Vector3 hpOffset = new Vector3(0f, 2f, 0f);
-    /// <summary>Wird true, während der Spieler eine Bewegung auswählt.</summary>
+    /// <summary>Wird true, wÃ¤hrend der Spieler eine Bewegung auswÃ¤hlt.</summary>
     private bool playerMovePending;
     /// <summary>Speichert, in welchem Zug der Gegner zuletzt gehandelt hat.</summary>
     private int lastTurnProcessed;
@@ -34,11 +34,11 @@ public class CharacterController : MonoBehaviour
 
     /// <summary>Transform des Elternobjekts der Lebensanzeige.</summary>
     private Transform hpBarParent;
-    /// <summary>Transform des gefüllten Bereichs der Lebensanzeige.</summary>
+    /// <summary>Transform des gefÃ¼llten Bereichs der Lebensanzeige.</summary>
     private Transform hpBarFill;
     /// <summary>Maximale Breite der Lebensanzeige.</summary>
     private float maxHpBarWidth = 1.5f;
-    /// <summary>Höhe der Lebensanzeige.</summary>
+    /// <summary>HÃ¶he der Lebensanzeige.</summary>
     private float hpBarHeight = 0.2f;
 
     /// <summary>
@@ -48,7 +48,13 @@ public class CharacterController : MonoBehaviour
     {
         moveTarget = transform.position;
 
-        // Lebensanzeige über dem Charakter erzeugen.
+        Rigidbody rb = GetComponent<Rigidbody>();
+        if (rb != null)
+        {
+            rb.constraints = RigidbodyConstraints.FreezeRotation;
+        }
+
+        // Lebensanzeige Ã¼ber dem Charakter erzeugen.
         GameObject hpParentObj = new GameObject("HPBar");
         hpParentObj.transform.SetParent(transform);
         hpParentObj.transform.localPosition = hpOffset;
@@ -98,7 +104,7 @@ public class CharacterController : MonoBehaviour
             }
         }
 
-        // Wenn der Spieler sein Ziel erreicht hat, wird das Aktionsmenü angezeigt.
+        // Wenn der Spieler sein Ziel erreicht hat, wird das AktionsmenÃ¼ angezeigt.
         if (!isEnemy && playerMovePending && Vector3.Distance(transform.position, moveTarget) < 0.01f)
         {
             playerMovePending = false;
@@ -144,7 +150,7 @@ public class CharacterController : MonoBehaviour
 
         if (newTarget == playerPos)
         {
-            // Alternativrichtung wählen, falls das Feld vom Spieler belegt ist.
+            // Alternativrichtung wÃ¤hlen, falls das Feld vom Spieler belegt ist.
             if (step.x != 0f && diff.z != 0f)
             {
                 step = new Vector3(0f, 0f, Mathf.Sign(diff.z));
@@ -164,7 +170,7 @@ public class CharacterController : MonoBehaviour
     }
 
     /// <summary>
-    /// Setzt ein neues Bewegungsziel für den Charakter.
+    /// Setzt ein neues Bewegungsziel fÃ¼r den Charakter.
     /// </summary>
     public void MoveToPoint(Vector3 pointToMoveTo)
     {
