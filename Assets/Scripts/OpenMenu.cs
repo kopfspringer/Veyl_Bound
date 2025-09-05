@@ -16,19 +16,22 @@ public class OpenMenu : MonoBehaviour
         instance = this;
     }
 
-    /// <summary>Wurzelobjekt für das Kampfmenü.</summary>
-    public GameObject battleMenu;
-
     /// <summary>Versteckt sämtliche Menüs.</summary>
     public void HideMenus()
     {
-        battleMenu.SetActive(false);
+        if (BattleMenu.instance != null)
+        {
+            BattleMenu.instance.Hide();
+        }
     }
 
     /// <summary>Blendet das Kampfmenü ein.</summary>
     public void ShowBattleMenus()
     {
-        battleMenu.SetActive(true);
+        if (BattleMenu.instance != null)
+        {
+            BattleMenu.instance.Show();
+        }
     }
 
     /// <summary>Wechselt in die Kampfszene.</summary>
