@@ -14,6 +14,7 @@ public class OpenMenu : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        HideMenus();
     }
 
     /// <summary>Wurzelobjekt für das Kampfmenü.</summary>
