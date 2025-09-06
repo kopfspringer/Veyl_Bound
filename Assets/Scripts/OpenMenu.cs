@@ -15,6 +15,7 @@ public class OpenMenu : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        HideMenus();
     }
 
     private void OnTriggerEnter(Collider other)
