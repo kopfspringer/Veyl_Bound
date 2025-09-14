@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - FxTemporaire
+  - MapPoint
   layers:
   - Default
   - TransparentFX

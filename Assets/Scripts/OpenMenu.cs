@@ -41,7 +41,9 @@ public class OpenMenu : MonoBehaviour
     /// <summary>Wechselt in die Kampfszene.</summary>
     public void EnterBattle()
     {
-        SceneManager.LoadScene("Battle_1");
+        //AsyncOperation load = SceneManager.LoadSceneAsync("World");
+        SceneManager.UnloadSceneAsync("WorldMap");
+        SceneManager.LoadScene("Forest Battle Arena");
     }
 }
 

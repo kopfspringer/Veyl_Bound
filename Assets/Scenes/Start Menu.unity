@@ -471,7 +471,7 @@ MonoBehaviour:
     byteData: 
     xmlData: '<xmldata>
 
-      <playMusic channel="0" type="1" storedID="0" playFromType="0"
+      <playMusic channel="0" type="0" storedID="0" playFromType="0"
       >
 
       <_float targetVolume="1" fade="1" />
@@ -479,13 +479,37 @@ MonoBehaviour:
       <_bool stored="False"
       />
 
+      <musicClip>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </musicClip>
+
       </playMusic>
 
       </xmldata>
 
 '
     lookUp:
-      assets: []
+      assets:
+      - {fileID: 11400000, guid: 06431841c6c55b44880ad40bb88dba65, type: 2}
     encrypted: 0
     stringData: 
 --- !u!4 &280656132

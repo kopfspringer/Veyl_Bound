@@ -38,6 +38,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dungeon/Dungeon Level 5.unity
     guid: f1009f8592c6f1a4994099ae0e52e904
+  - enabled: 1
+    path: Assets/Scenes/ForestBattle.unity
+    guid: 8235b3c4080ed6b449893085beb47bc0
+  - enabled: 1
+    path: Assets/Scenes/RoadBattle.unity
+    guid: 0da733ddd2c583b408b8362d4b2e3c6c
+  - enabled: 1
+    path: Assets/Scenes/RoadBattle2.unity
+    guid: aa29617945c25d34a9f9cdcc16c515c4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

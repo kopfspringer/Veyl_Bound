@@ -16,16 +16,16 @@ MonoBehaviour:
   lastSaveFormat: 0
   lastEncrypted: 0
   editorHelpLanguageTexts: {fileID: 0}
-  section: 3
-  subSection: 8
-  tabIndex: -1
-  scrollY: 60
-  foldoutLimit: 
+  section: 6
+  subSection: 12
+  tabIndex: 0
+  scrollY: 2546
+  foldoutLimit: Equipment
   helpDrag: 220
   subSectionDrag: 250
   tabListDrag: 250
   formulaDrag: 307
-  schematicDrag: 319
+  schematicDrag: 584
   jumpListDrag: 250
   dataSelectionSorting: 0
   typeDataSelectionSorting: 0
@@ -36,11 +36,16 @@ MonoBehaviour:
   updateScenes: 0
   sceneUpdate: 
   schematicAsset:
+  - {fileID: 11400000, guid: 7914c06f7ea66c0419b80dbb44caea65, type: 2}
+  - {fileID: 11400000, guid: 00099833625c51445af1e90745ecd417, type: 2}
+  - {fileID: 11400000, guid: 3b42422fea69cfc4886e31b24fc55c67, type: 2}
+  - {fileID: 11400000, guid: 72f0a45443701c240872f81e0ddef704, type: 2}
+  - {fileID: 11400000, guid: f62de5b05280bdb48a5606c40c59898b, type: 2}
+  - {fileID: 11400000, guid: 7cce9cc991d0c37449440cc8309b4033, type: 2}
   - {fileID: 11400000, guid: 5c61c3561c1a4b846af2fe63a3c642b6, type: 2}
   - {fileID: 11400000, guid: 6b8f0fe4cb7a9ee4c9a00e6bf755b6c9, type: 2}
   - {fileID: 11400000, guid: 38683c41d15efcc47a58b87408e9d21f, type: 2}
   - {fileID: 11400000, guid: 0731a40e0bdc1a845875343cb8b12038, type: 2}
-  - {fileID: 11400000, guid: 7cce9cc991d0c37449440cc8309b4033, type: 2}
   - {fileID: 11400000, guid: f4cc767b485621d4b9caaedad7ccafe0, type: 2}
   - {fileID: 11400000, guid: 6c18fae1e63fb004b88acf7c99e49093, type: 2}
   - {fileID: 11400000, guid: 2266043b9f18e1b479787428bed873ab, type: 2}
@@ -51,11 +56,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b70498f9b9000e245ae4038b66580b6c, type: 2}
   - {fileID: 11400000, guid: 1359ccc12fc809b4c81686e0bcaafd1b, type: 2}
   - {fileID: 11400000, guid: a6d9263207d289b4ca2ba08cbde4568c, type: 2}
-  - {fileID: 11400000, guid: 1e0000d08d05a5248b97ab65d47bfba1, type: 2}
-  - {fileID: 11400000, guid: 5dfc2a55ce2aeb24a81262ff226063e7, type: 2}
-  - {fileID: 11400000, guid: 688a3a67d22a0854b8248bd30ade30a9, type: 2}
-  - {fileID: 11400000, guid: 23fec5434ccdc2d479868d19211b2b85, type: 2}
-  - {fileID: 11400000, guid: 5e5122f06446a0744853c935a2ccd6e5, type: 2}
   dialogueImportSettings:
     name: 
     byteData: 
@@ -64,7 +64,8 @@ MonoBehaviour:
       assets: []
     encrypted: 0
   variablesDefined: []
-  variablesEditor: []
+  variablesEditor:
+  - progress
   variablesSchematic:
   - ui
   - useCamera
@@ -72,6 +73,16 @@ MonoBehaviour:
   - counter
   - World
   - cell
+  - Forest Battle Arena
+  - wpKey
+  - WorldMap
+  - wp_forest
+  - unlockKey
+  - wp_road2
+  - wp_road_trap
+  - RoadBattle
+  - RoadBattle2
+  - ForestBattle
   variablesScene: []
   variablesPrefab: []
   foldoutKeys: []
