@@ -16,16 +16,16 @@ MonoBehaviour:
   lastSaveFormat: 0
   lastEncrypted: 0
   editorHelpLanguageTexts: {fileID: 0}
-  section: 6
-  subSection: 12
-  tabIndex: 0
-  scrollY: 2546
-  foldoutLimit: Equipment
+  section: 9
+  subSection: 0
+  tabIndex: -1
+  scrollY: 0
+  foldoutLimit: 
   helpDrag: 220
   subSectionDrag: 250
   tabListDrag: 250
   formulaDrag: 307
-  schematicDrag: 584
+  schematicDrag: 426
   jumpListDrag: 250
   dataSelectionSorting: 0
   typeDataSelectionSorting: 0
@@ -36,6 +36,7 @@ MonoBehaviour:
   updateScenes: 0
   sceneUpdate: 
   schematicAsset:
+  - {fileID: 11400000, guid: 111338cb0766de541a6a695e036c6bfb, type: 2}
   - {fileID: 11400000, guid: 7914c06f7ea66c0419b80dbb44caea65, type: 2}
   - {fileID: 11400000, guid: 00099833625c51445af1e90745ecd417, type: 2}
   - {fileID: 11400000, guid: 3b42422fea69cfc4886e31b24fc55c67, type: 2}
@@ -55,7 +56,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: caf7e3b7f44045143ba69d7ab80685ba, type: 2}
   - {fileID: 11400000, guid: b70498f9b9000e245ae4038b66580b6c, type: 2}
   - {fileID: 11400000, guid: 1359ccc12fc809b4c81686e0bcaafd1b, type: 2}
-  - {fileID: 11400000, guid: a6d9263207d289b4ca2ba08cbde4568c, type: 2}
   dialogueImportSettings:
     name: 
     byteData: 
@@ -83,6 +83,8 @@ MonoBehaviour:
   - RoadBattle
   - RoadBattle2
   - ForestBattle
+  - list
+  - quest
   variablesScene: []
   variablesPrefab: []
   foldoutKeys: []

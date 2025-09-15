@@ -457,6 +457,327 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &590402667
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5311318883997023789, guid: 1c441e471b1b51c4fa5c3d3d9364c8cd, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 211121305254445819, guid: f90b413a82549234883aa56109189d39, type: 3}
+    - target: {fileID: 7285791231647563838, guid: 1c441e471b1b51c4fa5c3d3d9364c8cd, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 211121305254445819, guid: f90b413a82549234883aa56109189d39, type: 3}
+    - target: {fileID: 7949257049964514023, guid: 1c441e471b1b51c4fa5c3d3d9364c8cd, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 816c595e01f691b4c87c4259749ac9fc, type: 2}
+    - target: {fileID: 8453699997652233010, guid: 1c441e471b1b51c4fa5c3d3d9364c8cd, type: 3}
+      propertyPath: m_Name
+      value: SavePoint (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9086649927105802632, guid: 1c441e471b1b51c4fa5c3d3d9364c8cd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 9086649927105802632, guid: 1c441e471b1b51c4fa5c3d3d9364c8cd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 9086649927105802632, guid: 1c441e471b1b51c4fa5c3d3d9364c8cd, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 9086649927105802632, guid: 1c441e471b1b51c4fa5c3d3d9364c8cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 9086649927105802632, guid: 1c441e471b1b51c4fa5c3d3d9364c8cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9086649927105802632, guid: 1c441e471b1b51c4fa5c3d3d9364c8cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 9086649927105802632, guid: 1c441e471b1b51c4fa5c3d3d9364c8cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.00570151
+      objectReference: {fileID: 0}
+    - target: {fileID: 9086649927105802632, guid: 1c441e471b1b51c4fa5c3d3d9364c8cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.005701559
+      objectReference: {fileID: 0}
+    - target: {fileID: 9086649927105802632, guid: 1c441e471b1b51c4fa5c3d3d9364c8cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7070839
+      objectReference: {fileID: 0}
+    - target: {fileID: 9086649927105802632, guid: 1c441e471b1b51c4fa5c3d3d9364c8cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7070837
+      objectReference: {fileID: 0}
+    - target: {fileID: 9086649927105802632, guid: 1c441e471b1b51c4fa5c3d3d9364c8cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 9086649927105802632, guid: 1c441e471b1b51c4fa5c3d3d9364c8cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9086649927105802632, guid: 1c441e471b1b51c4fa5c3d3d9364c8cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180.924
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8453699997652233010, guid: 1c441e471b1b51c4fa5c3d3d9364c8cd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 590402669}
+  m_SourcePrefab: {fileID: 100100000, guid: 1c441e471b1b51c4fa5c3d3d9364c8cd, type: 3}
+--- !u!1 &590402668 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8453699997652233010, guid: 1c441e471b1b51c4fa5c3d3d9364c8cd, type: 3}
+  m_PrefabInstance: {fileID: 590402667}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &590402669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590402668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1217795412, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serialize_conditionSetting:
+    name: conditionSetting
+    byteData: 
+    xmlData: '<xmldata autoCheckType="0" conditionFail="0" needed="0" >
+
+      <_float
+      destroyCheckDelay="1" />
+
+      <_bool repeatCheck="False" />
+
+      <_subarrays>
+
+      <condition>
+
+      </condition>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0
+    stringData: 
+  serialize_baseSettings:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata>
+
+      <assetSetting executionType="0" updateType="0" priority="0"
+      endAction="0" >
+
+      <_float startDelayTime="0" endDelayTime="0" autoStopCheckTime="0"
+      />
+
+      <_bool inPause="False" setPriority="False" stopOnDestroy="True" turnStartingObject="False"
+      turnMachineObject="False" turnRestoreMachineObject="False" autoStop="False"
+      />
+
+      <_asset schematicAsset="0" />
+
+      <machineType>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </machineType>
+
+      <inputID>
+
+      <_bool
+      overrideID="False" />
+
+      </inputID>
+
+      </assetSetting>
+
+      <changeAfterSetting>
+
+      <_bool
+      setVariables="False" />
+
+      </changeAfterSetting>
+
+      <startVariableSetting>
+
+      <_bool
+      setStartVariables="False" />
+
+      </startVariableSetting>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: 111338cb0766de541a6a695e036c6bfb, type: 2}
+    encrypted: 0
+    stringData: 
+  actor: []
+  resources:
+    prefab: []
+    audioClip: []
+    audioMixer: []
+    audioMixerGroup: []
+    sprite: []
+    texture: []
+    material: []
+    physicMaterial: []
+    physicsMaterial2D: []
+  serialize_setting:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata>
+
+      <_bool useAutoStopDistance="False" />
+
+      <startSetting
+      needed="0" >
+
+      <_float maxInteractionDistance="3" maxMouseDistance="3"
+      />
+
+      <_bool isInteract="True" isKeyPress="False" isDrop="False" isMouseDown="False"
+      isMouseDrag="False" isMouseUp="False" isMouseUpAsButton="True" isMouseEnter="False"
+      isMouseOver="False" isMouseExit="False" setInteractionDistance="False" setMouseDistance="False"
+      keyPressInTrigger="False" keyPressWhileColliding="False" startByRoot="False"
+      />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.InteractionMachineStartSetting]]></_type>
+
+      </_string>
+
+      <inputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </inputKey>
+
+      <_subarrays>
+
+      <dropCondition>
+
+      </dropCondition>
+
+      </_subarrays>
+
+      </startSetting>
+
+      <moveToInteraction>
+
+      <_float
+      interactionRadius="1" stopDistance="1" />
+
+      <_bool useMoveToInteraction="True"
+      overrideInteractionRadius="False" setInteractionRadius="False" overrideStopDistance="False"
+      overrideMoveToSpeed="False" />
+
+      <moveToSpeed>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="5" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </moveToSpeed>
+
+      </moveToInteraction>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0
+    stringData: 
 --- !u!1 &604712593
 GameObject:
   m_ObjectHideFlags: 0
@@ -2609,8 +2930,8 @@ MonoBehaviour:
       <_float maxInteractionDistance="3" maxMouseDistance="3"
       />
 
-      <_bool isInteract="True" isKeyPress="False" isDrop="False" isMouseDown="True"
-      isMouseDrag="False" isMouseUp="False" isMouseUpAsButton="False" isMouseEnter="False"
+      <_bool isInteract="True" isKeyPress="False" isDrop="False" isMouseDown="False"
+      isMouseDrag="False" isMouseUp="False" isMouseUpAsButton="True" isMouseEnter="False"
       isMouseOver="False" isMouseExit="False" setInteractionDistance="False" setMouseDistance="False"
       keyPressInTrigger="False" keyPressWhileColliding="False" startByRoot="False"
       />
@@ -4528,6 +4849,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1962316874}
     m_Modifications:
+    - target: {fileID: 625867266554827697, guid: 1dc993aa3570033488265c14f1121414, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1890631126739011753, guid: 1dc993aa3570033488265c14f1121414, type: 3}
       propertyPath: serialize_setting.xmlData
       value: '<xmldata>
@@ -4856,4 +5181,5 @@ SceneRoots:
   - {fileID: 1825942549}
   - {fileID: 64097669}
   - {fileID: 1282195741}
+  - {fileID: 590402667}
   - {fileID: 1534072128}
