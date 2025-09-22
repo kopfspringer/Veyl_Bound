@@ -16,11 +16,11 @@ MonoBehaviour:
   lastSaveFormat: 0
   lastEncrypted: 0
   editorHelpLanguageTexts: {fileID: 0}
-  section: 5
-  subSection: 8
-  tabIndex: 20
-  scrollY: 0
-  foldoutLimit: Battle Animation
+  section: 7
+  subSection: 5
+  tabIndex: 0
+  scrollY: 3480
+  foldoutLimit: 
   helpDrag: 220
   subSectionDrag: 250
   tabListDrag: 250
@@ -36,6 +36,7 @@ MonoBehaviour:
   updateScenes: 0
   sceneUpdate: 
   schematicAsset:
+  - {fileID: 11400000, guid: 7cce9cc991d0c37449440cc8309b4033, type: 2}
   - {fileID: 11400000, guid: 9b0faddcfb4ec6d428c64e67dea3df29, type: 2}
   - {fileID: 11400000, guid: 111338cb0766de541a6a695e036c6bfb, type: 2}
   - {fileID: 11400000, guid: 7914c06f7ea66c0419b80dbb44caea65, type: 2}
@@ -43,7 +44,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3b42422fea69cfc4886e31b24fc55c67, type: 2}
   - {fileID: 11400000, guid: 72f0a45443701c240872f81e0ddef704, type: 2}
   - {fileID: 11400000, guid: f62de5b05280bdb48a5606c40c59898b, type: 2}
-  - {fileID: 11400000, guid: 7cce9cc991d0c37449440cc8309b4033, type: 2}
   - {fileID: 11400000, guid: 5c61c3561c1a4b846af2fe63a3c642b6, type: 2}
   - {fileID: 11400000, guid: 6b8f0fe4cb7a9ee4c9a00e6bf755b6c9, type: 2}
   - {fileID: 11400000, guid: 38683c41d15efcc47a58b87408e9d21f, type: 2}
