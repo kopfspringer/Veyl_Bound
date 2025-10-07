@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7f3e5cb54d704fc4b99319fc5f762091
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 229815
+  packageName: Dark Lands - RPG UI Kit
+  packageVersion: 1.1
+  assetPath: Assets/DarkLandsUI/Animations/MenuButtons/MenuButton.controller
+  uploadId: 520920

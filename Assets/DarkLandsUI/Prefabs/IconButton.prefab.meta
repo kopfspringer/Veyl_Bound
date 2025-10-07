@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7b6c5e15a7fe9ee4481a15b115930396
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 229815
+  packageName: Dark Lands - RPG UI Kit
+  packageVersion: 1.1
+  assetPath: Assets/DarkLandsUI/Prefabs/IconButton.prefab
+  uploadId: 520920

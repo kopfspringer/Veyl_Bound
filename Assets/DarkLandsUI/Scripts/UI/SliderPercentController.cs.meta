@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: df12e43638557f64a9849f8e42db8334
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 229815
+  packageName: Dark Lands - RPG UI Kit
+  packageVersion: 1.1
+  assetPath: Assets/DarkLandsUI/Scripts/UI/SliderPercentController.cs
+  uploadId: 520920

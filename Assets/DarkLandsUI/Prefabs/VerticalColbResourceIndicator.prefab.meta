@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 53d1bb6d52d330d4db50e4d2bae515c1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 229815
+  packageName: Dark Lands - RPG UI Kit
+  packageVersion: 1.1
+  assetPath: Assets/DarkLandsUI/Prefabs/VerticalColbResourceIndicator.prefab
+  uploadId: 520920

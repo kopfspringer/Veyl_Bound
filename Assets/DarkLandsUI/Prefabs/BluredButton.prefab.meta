@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b26a3f70f04656147a13674e572cc30b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 229815
+  packageName: Dark Lands - RPG UI Kit
+  packageVersion: 1.1
+  assetPath: Assets/DarkLandsUI/Prefabs/BluredButton.prefab
+  uploadId: 520920

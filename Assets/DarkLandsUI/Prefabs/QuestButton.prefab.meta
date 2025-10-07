@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1bb0c635aa276414c987b6cb26bf5b6c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 229815
+  packageName: Dark Lands - RPG UI Kit
+  packageVersion: 1.1
+  assetPath: Assets/DarkLandsUI/Prefabs/QuestButton.prefab
+  uploadId: 520920

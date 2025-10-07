@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f138d6790440a4d4388bee2d8cb6cec9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 229815
+  packageName: Dark Lands - RPG UI Kit
+  packageVersion: 1.1
+  assetPath: Assets/DarkLandsUI/Animations/FakeLoading/LoadingSlider.controller
+  uploadId: 520920

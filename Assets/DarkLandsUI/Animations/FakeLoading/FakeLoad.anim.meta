@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0aebb3d149525c943ab719dcd74e5d3f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 229815
+  packageName: Dark Lands - RPG UI Kit
+  packageVersion: 1.1
+  assetPath: Assets/DarkLandsUI/Animations/FakeLoading/FakeLoad.anim
+  uploadId: 520920

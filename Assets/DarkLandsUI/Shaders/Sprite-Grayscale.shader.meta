@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ad57888d169db0b479f16b2e645de696
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 229815
+  packageName: Dark Lands - RPG UI Kit
+  packageVersion: 1.1
+  assetPath: Assets/DarkLandsUI/Shaders/Sprite-Grayscale.shader
+  uploadId: 520920

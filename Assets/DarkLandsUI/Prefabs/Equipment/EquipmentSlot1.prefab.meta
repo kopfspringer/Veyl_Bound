@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cd845327397b4dc4c8f532029f32460c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 229815
+  packageName: Dark Lands - RPG UI Kit
+  packageVersion: 1.1
+  assetPath: Assets/DarkLandsUI/Prefabs/Equipment/EquipmentSlot1.prefab
+  uploadId: 520920

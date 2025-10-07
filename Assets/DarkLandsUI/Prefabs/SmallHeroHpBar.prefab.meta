@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 95bab7b0e0cc72648ad1d67dd33a900b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 229815
+  packageName: Dark Lands - RPG UI Kit
+  packageVersion: 1.1
+  assetPath: Assets/DarkLandsUI/Prefabs/SmallHeroHpBar.prefab
+  uploadId: 520920
