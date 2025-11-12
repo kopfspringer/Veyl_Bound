@@ -16,15 +16,15 @@ MonoBehaviour:
   lastSaveFormat: 0
   lastEncrypted: 0
   editorHelpLanguageTexts: {fileID: 0}
-  section: 3
+  section: 7
   subSection: 5
-  tabIndex: 14
-  scrollY: 300
-  foldoutLimit: 
+  tabIndex: -1
+  scrollY: 1320
+  foldoutLimit: Battle Settings
   helpDrag: 220
   subSectionDrag: 250
   tabListDrag: 200
-  formulaDrag: 200
+  formulaDrag: 448
   schematicDrag: 262
   jumpListDrag: 250
   dataSelectionSorting: 0
