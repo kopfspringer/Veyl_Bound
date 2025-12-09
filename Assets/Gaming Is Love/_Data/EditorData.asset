@@ -16,11 +16,11 @@ MonoBehaviour:
   lastSaveFormat: 0
   lastEncrypted: 0
   editorHelpLanguageTexts: {fileID: 0}
-  section: 7
-  subSection: 5
-  tabIndex: -1
-  scrollY: 1320
-  foldoutLimit: Battle Settings
+  section: 2
+  subSection: 14
+  tabIndex: 0
+  scrollY: 0
+  foldoutLimit: Base Settings
   helpDrag: 220
   subSectionDrag: 250
   tabListDrag: 200
