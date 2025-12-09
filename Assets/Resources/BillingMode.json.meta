@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8b9c8855d9906534ba984d99b261762d
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 184351
+  packageName: 'Makinom 2 Free: Game Toolkit'
+  packageVersion: 2.21.0
+  assetPath: Assets/Resources/BillingMode.json
+  uploadId: 798232

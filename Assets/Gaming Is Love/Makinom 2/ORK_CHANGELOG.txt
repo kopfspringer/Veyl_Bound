@@ -1,4 +1,63 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------
+ORK Framework 3.22.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+New:
+- Damage Types: 'Cause Aggression' setting available. Damage types can now define if an ability or item (or ability/item type) using them will cause the target to become aggressive. By default enabled (previous behaviour).
+- Quests: Quest Variables: 'Quest Variables' settings available. Quests can now use their own variables - the variables are added to the instance of the quest in a running game. Quest tasks can use the variables for conditions (using 'Local' variable origin).
+- General Conditions, HUD Conditions, Component Conditions, Move Conditions: 'Quest Variable' condition type available. Checks quest variables of a defined quest.
+- Abilities: Items: Use Cost: 'Calculation Moment' setting available. Define if the use costs are consumed before or after calculating the target changes. E.g. if the target changes are based on a status value that's consumed by the use costs, you can consume the costs after targets to prevent this having an impact on the damage. Defaults to 'Before Targets' (previous behaviour).
+- Abilities, Items, Cast Time, Item Collection, Damage Zones: Audio Settings: 'Play On' settings available. Define if the audio clip will be played on the combatant, a sound channel or on the combatant if spawned, otherwise on a sound channel. Defaults to playing on the combatant (previous behaviour).
+- Turn Based Battles, Phase Battles, Abilities, Items: Action Costs: 'Consume Cost' setting available. Consuming the action cost for using an action is now optional. If disabled, the cost is only used as a use condition but doesn't reduce the actions per turn of the combatant. E.g. grid move command can require at least 1 AP to use, but not consume it.
+- Active Time Battles: Timebar Costs: 'Consume Cost' setting available. Consuming the timebar cost for using an action is now optional. If disabled, the cost is only used as a use condition but doesn't reduce the timebar of the combatant. E.g. using items can require the timebar to be at least filled to 1000, but not reduce it after use.
+- Items: Use Settings: 'Counterable' setting available. Items can now optionally cause the target to use a counter attack (like abilities). By default disabled.
+- Move AIs: 'Allow Dead' settings available. Optionally allow dead combatants to move using the move AI. Separate settings for player group, allies and enemies. By default disabled (previous behaviour).
+- Start Menu: New Game: Auto Save Slot Menu: 'Close File List' setting available when using 'Use Delete Key'. Optionally close the UI box displaying the save files while deleting a save game (e.g. while displaying the delete question dialogue). The UI box will be opened again after deleting or canceling deletion.
+- Menu Screens: Quest: Quest Box: 'Add Available' settings available. Optionally add available quests that have not yet been added to the player's quest list. You can optionally use custom content layouts for available quests.
+- Menu Screens: Quest: Info Box: 'Add Available Button' settings available. Adds an available quest to the player's quest list. The button will be displayed instead of the activation/inactivation button.
+- Menu Screens: Research (List View), Research (Tree View): New text codes available to display research item counts of a research tee. The text codes are available in tree content layouts and research item box title/message.
+- HUDs: Tooltip: 'Option Category' tooltip check type available. Checks if the tooltip content is an option category.
+- Schematics: Use Item Calculation: 'Do Counters' setting available. The targets can counter the item (if set up accordingly). By default enabled.
+- Schematics: Change Selected Data Name, Set Combatant Name: 'Change Short Name' setting available. Optionally change the short name instead of the name.
+- Schematics: Reopen Battle Menu: 'Use Currently Open' setting available. Optionally use the currently open battle menu of the battle system instead of the battle menu that started the schematic.
+- Schematics: Select Quest: 'Define Quest' settings available. Optionally define a specific quest that will be used as selected data instead of using all quests.
+- Source Code: Updated the source code project to Visual Studio 22 versions. The 'Unity_2019' configuration now targets '.Net Standard 2.0', the 'Unity_6' configuration now targets '.Net Standard 2.1'.
+- Unity UI: HUD Crafting Recipe Item List Content Component: 'HUD Crafting Recipe Item List' content component available. Lists the ingredients, outcome and/or critical outcome of a crafting recipe.
+- Unity UI: ORK HUD Status Text Content: Research Tree: 'Research Tree' status type available. Displays information of a research tree. Requires a research tree to be the content/user of the used content provider.
+- Unity UI: ORK HUD Status Text Content: Actions Per Turn: 'No Exceeding Value' setting available. Optionally limit the used value between 0 and the max actions per turn.
+- Unity UI: ORK HUD Status Text Content: Actions Per Turn: 'Use Exceeding Text' settings available. Optionally use a different text when the used value exceeds the available actions per turn. This'll ignore the positive/negative preview texts when the previewed used value exceeds the available actions per turn.
+- Unity UI: HUD Quest Text Content: 'Show Available' setting available. Show the text for available quests, not yet added to the player's quest list. By default enabled.
+- Unity UI: HUD Quest List: 'Add Available' settings available. Optionally add available quests that have not yet been added to the player's quest list.
+- Unity UI: HUD Shortcut/AI Behaviour/AI Ruleset/Class/Equipment Slot Content: State Changes: 'Set Slot Color' and 'Set Content Color' settings available when using 'Use Color'. Changing the color of the slot's game objects and the content's game objects is now separated, allowing you to change only the slot, only the content, or both. However, both use the same color setting.
+- Unity UI: HUD Ability List/HUD Inventory List/HUD Item Box List/HUD Status Effect List: 'Use Sorting' settings available. Optionally sort the listed content instead of using the default order (e.g. status effects according to priority and time added).
+
+Changes:
+- Quest Tasks: The schematics of quest tasks now have the task's quest available as local selected data via the data key 'action'.
+- Unity UI: HUD Equipment List: Slots with equipped equipment will now forward the equipment as HUD content of the spawned shortcut UI prefab instead of the equipment slot. Empty slots still use the equipment slot as content.
+
+Fixes:
+- Abilities, Items: Fixed an issue where use costs and user changes could cause the user to recognise itself as an attacker.
+- Status Effects: Fixed an issue where a status change causing death combined with 'End On Death' could cause an error if further status changes are used by the effect.
+- Shops: Fixed potential issues where selling shops for free (e.g. 0 currency price) or an item being removed due to limited quantity could cause an error.
+- Currencies, Shops: Fixed an issue where exchange rates where not used when displaying prices of a shop using a different currency than the base currency (ID 0).
+- Status Development: Percent Points: Fixed an issue where using percent points with low percent value and percent being used by a status value (leading to values below 1) could cause differences between leveling up (wrong value) and intitializing to a level.
+- Classes: Research Trees: Fixed an issue where learning research trees from classes in class slots used the main/single class's level instead of the class instance that leveled up.
+- Classes, Class Slots, Research Trees: Status Value: Fixed an issue where bonuses from 'Status Value' research items using 'Upgrade Class' where not added to a combatant while having the class equipped in a class slot, unless the class also had a status development set up.
+- Classes, Research Trees: Ability: Fixed an issue where the research count from 'Ability' research items using 'Next Level' wasn't correct when using 'Learn By Class'.
+- Battle Menus: Fixed an issue where the battle menu was kept open when starting an external target selection (e.g. via shortcut HUD or control maps) when not using multi-mode UI boxes.
+- Battle Menus: Fixed an issue where starting an external target selection without an open battle menu could cause an error.
+- Options Menu: Fixed an issue where inputs didn't display tooltips when 'Enable Tooltip' was enabled.
+- Options Menu: Category Box Settings: Fixed an issue where 'Content Layout' settings where not displayed when using 'Tabs' category display.
+- Combatants: Prefab View Portraits: Fixed an issue where the displayed prefab didn't change when conditions for conditional prefabs changed.
+- Combatants, Battles: Fixed an issue where the active shortcut of a combatant wasn't unset when ending the turn. This could cause active highlights to remain.
+- Grid Battles, Combatant Body Parts: Fixed an issue where killing or removing a body part from battle could cause the parent combatant to be removed from it's grid cell.
+- Grid Battles: Cell Targeting: Fixed an issue where affect range highlights could be displayed at wrong positions when stopping to hover over an action (e.g. in battle menu or shortcut HUD) during target cell selection.
+- Phase Battles: Player Combatant Selection: Fixed an issue where using 'Allow Clicking' could cancel the player's auto grid move selection in grid battles if the user's cell canceles the grid movement.
+- Status Previews: Actions Per Turn: Fixed an issue where the preview for actions per turn changes could double when keeping the same preview after using an action (e.g. cursor over a shortcut slot).
+- Unity UI: UI Research Tree (Multi) Component: Fixed an issue where displaying merged research trees with the same research tree added multiple times caused an error. Now the first not completed research tree will be displayed. Multi tree view doesn't support showing the same research tree more than once.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 ORK Framework 3.21.0
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
