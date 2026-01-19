@@ -1,4 +1,48 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------
+ORK Framework 3.23.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+New:
+- Status Conditions: Has Body Part Type: 'Has Body Part Type' condition type available. Checks if a combatant has a body part of a defined combatant type.
+- Game Controls: Player Controls: Button: 'Rotation Smooth Time' and 'Rotation Max Angle' settings available. Rotation during movement is now handled differently and allows quick turns (e.g. snapping to the target direction when making a 180 degrees turn).
+- Game Controls: Camera Controls: Mouse, Top Down Border: 'Use Scroll Wheel' settings available in the 'Zoom Settings'. Optionally use mouse scroll wheel axis input without setting up an input key and use it in addition to input keys.
+- Quest Tasks: Requirements: Failed Tasks: 'Failed Tasks' requirements available for activate, finish and failing the task. E.g. automatically activate a task upon failing a different task.
+- Status Effects: Description, Custom Content: 'Description' and 'Custom Content' texts now support the '<bonus>' text code to add status bonus information to the texts. How and which content is displayed is set up in 'UI > Text Display Settings > Bonus Display'.
+- Status Effect Changes: 'Show Flying Text' and 'Show Console' settings available. Showing flying texts and console lines is now optional for status effect change setups throughout the framework (e.g. abilities, items and schematics).
+- Battle Texts: Action Info Notifications: 'Use Content Icon' settings available in all action info notifications. Optionally add the icon of the action to the content displayed by the UI box.
+- Battle Texts: Action Info Notifications: 'HUD Type' settings available in all action info notifications. Optionally add HUD content to the action info notifications.
+- Battle End: Loot Dialogues: Combatant Gains: 'No Experience Text' and 'No Normal Status Value Text' settings available. Display a text for '<experience>' and '<normal>' text codes ('Total Gains Content' settings) if the combatant didn't receive any experience or normal status value gains. By default empty (previous behaviour, displaying no text).
+- Battle End: Loot Dialogues: Combatant Gains: Experience Text, Normal Status Value Text: 'Line Separation' settings available. Using a line separator between individual experience and normal status value gains is now optional. If disabled, you can define a separator text (e.g. ', ') between them. By default enabled (previous behaviour).
+- HUDs: Tooltip: 'Quest Reward' tooltip check type available. Checks if the tooltip content is a quest or quest task reward.
+- HUDs: Tooltip: 'Quest Task Requirement' tooltip check type available. Checks if the tooltip content is a quest task requirement.
+- Menu Screens: Group: 'Swap Changes Sorting' setting available when using 'Remove Sort Change' settings. Optionally also change sorting of a removed combatant when swapping with a different combatant. If disabled, sorting is only changed when only removing a combatant without replacing it.
+- Console Settings, Status Effects: New text codes available for status effect console texts. Add stack count, max stack count, duration or max duration using text codes.
+- Schematics: Check Experience Rewards: 'Check Experience Rewards' node available in 'Battle > Gains' nodes. Checks experience rewards of the battle's gains.
+- Schematics: Check Normal SV Rewards: 'Check Normal SV Rewards' node available in 'Battle > Gains' nodes. Checks 'Normal' status value rewards of the battle's gains.
+- Schematics: Change Auto Attack Time: 'Change Auto Attack Time' node available in 'Battle > Combatant' nodes. Changes the auto attack time of a combatant. This will set the time until the next auto attack, not change the general auto attack interval.
+- Unity UI: ORK HUD Status Text Content: Status Effect: New text codes available to display max stack count.
+- Unity UI: HUD Condition: Quest Task Requirement: 'Has Failed Tasks' setting available. Checks if the quest task's finish requirements contain failed tasks requirements.
+- Unity UI: HUD Quest Task Requirement List: 'Add Failed Tasks' setting available. Optionally add failed task requirements to the displayed requirements. By default enabled.
+- Unity UI: HUD Quest Task Requirement Text Content: 'Show Failed Tasks' setting available. Optionally display the text for failed tasks requirements. By default enabled.
+
+Changes:
+- Quantity Selections: The 'Minimum Quantity' setting is now a value selection (general settings and for 'Select' quantity selection setups). E.g. use variables or formulas to define the minimum quantity required to use a quantity selection. Previous data will be updated automatically.
+- Menu Screens: Equipment: Dragging and dropping an equipment from an equipment slot on another slot will now switch the equipped equipment between the slots instead of equipping it on one and unequipping the prevoius equipment. Only used if switching is possible (i.e. equipment from the slots is equipable on the other slot).
+- Battle End: Loot Dialogues: Combatant Gains: Experience Text, Normal Status Value Text: Due to the new separator settings it's possible that the previous final text is now slightly different.
+
+Fixes:
+- Status Values: Consumable: Fixed an issue where forwarding changes to the max value could be reused during status recalculations when the max value's change came from a status effect stack.
+- Status Effects, Console: Fixed an issue where reapplying an effect printed the apply text instead of the reapply text to the console.
+- Start Menu: Fixed an issue where opening 'Option Categories' menu after having it open as part of a menu screen during a running game no longer allowed to close the option menu in the start menu.
+- Option Categories: Fixed an issue where options changing global variables where reset when exiting the game to the start menu.
+- Menu Screens: Research (List View), Research (Tree View): Fixed an issue where changing research types could cause an error when the newly selected type had less research trees than the previous selection.
+- Menu Screens: Crafting List: Fixed an issue where crafting always fails when using inventory containers for all combatants.
+- Battle End: Sequence Loot Dialogue: Fixed an issue where 'Combatant' and 'Level Up' type notifications using 'Defined' display type only displayed the first round of content.
+- Schematics: Change Normal SV Rewards: Fixed an issue where the changes to 'Normal' type status value rewards could result in wrong reward values.
+- Flying Texts: Status Effects: Fixed an issue where the player, ally or enemy toggles for limiting flying texts to certain groups where not used correctly.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 ORK Framework 3.22.0
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 

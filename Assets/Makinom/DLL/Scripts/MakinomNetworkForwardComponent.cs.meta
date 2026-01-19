@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: bbcddf21e34203c40997c162e3344cc8
+timeCreated: 1438183464
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102686
+  packageName: 'Makinom Free: Game Toolkit'
+  packageVersion: 1.19.0
+  assetPath: Assets/Makinom/DLL/Scripts/MakinomNetworkForwardComponent.cs
+  uploadId: 497263

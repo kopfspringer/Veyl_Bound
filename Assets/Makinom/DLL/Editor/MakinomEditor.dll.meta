@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 0ea1101c1b65747458be017350022cb0
+PluginImporter:
+  serializedVersion: 1
+  iconMap: {}
+  executionOrder: {}
+  isPreloaded: 0
+  platformData:
+    Any:
+      enabled: 0
+      settings: {}
+    Editor:
+      enabled: 1
+      settings:
+        DefaultValueInitialized: true
+    WindowsStoreApps:
+      enabled: 0
+      settings:
+        CPU: AnyCPU
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102686
+  packageName: 'Makinom Free: Game Toolkit'
+  packageVersion: 1.19.0
+  assetPath: Assets/Makinom/DLL/Editor/MakinomEditor.dll
+  uploadId: 497263

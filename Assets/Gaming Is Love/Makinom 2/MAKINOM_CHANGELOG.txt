@@ -1,4 +1,67 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------
+Makinom 2.22.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+New:
+- Game States: 'Reset Load Game' and 'Reset Stop Game' settings available. Optionally reset the game state to it's initial state when loading a save game or stopping a running game. By default enabled, or when loading previous data these settings will match the 'Reset New Game' setting.
+- Game States: 'Save State' setting available. Optionally save the game state's state in save games. By default disabled (not saving).
+- Save Game Settings: Save Game Menu, Load Game Menu: 'Remember Selection' setting available when not using 'Select Latest'. Remembers the last selections made in the save/load game menu (i.e. selected button) while the game is running. If disabled, the selection is reset when opening the menu again. By default enabled (previous behaviour).
+
+Fixes:
+- Schematics: Show Image: Fixed a potential issue with pooling sprites for image display.
+- Mouse Touch Controls: The timeout is now reset when data is loaded to ensure correct behaviour when not using domain reload.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Makinom 2.21.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+New:
+- General Conditions: 'Chance' condition type available. The condition is valid based on a defined chance.
+- Save Game Settings: Save Game Menu, Load Game Menu: 'Close File List' setting available when using 'Use Delete Key'. Optionally close the UI box displaying the save files while deleting a save game (e.g. while displaying the delete question dialogue). The UI box will be opened again after deleting or canceling deletion.
+- UI Boxes: Controls: 'Drag Left Click', 'Drag Middle Click' and 'Drag Right Click' settings available. Dragging (click-hold dragging) can now be enabled separately from accept click, e.g. allow accepting with right click but not dragging. Requires either accept or select of the left/middle/right click to be enabled.
+- Schematics: Auto Save Slot Dialogue: 'Close File List' setting available when using 'Use Delete Key'. Optionally close the UI box displaying the save files while deleting a save game (e.g. while displaying the delete question dialogue). The UI box will be opened again after deleting or canceling deletion.
+- Source Code: Updated the source code project to Visual Studio 22 versions. The 'Unity_2019' configuration now targets '.Net Standard 2.0', the 'Unity_6' configuration now targets '.Net Standard 2.1'.
+
+Changes:
+- Editor: Copying list data or pasting settings will now reset the language export IDs of the new data.
+
+Fixes:
+- Global Machines: Fixed an issue where in some cases local variables and local selected data where not forwarded to the schematic when starting the machine.
+- Music Clips: Fixed an issue where loops always reset to the start of the audio clip and not the set time/PCM position. This happened only in newer Unity versions (e.g. not present in 2022.3.0, present in 2022.3.53).
+- Unity UI: HUD Value Bar (Sprite): Fixed an issue where not using positive/negative change images could lead to not displaying preview value changes (in ORK 3).
+- Unity UI: HUD Button Control Content: Fixed a timing issue where the input for 'Down' or 'Up' input was already reset before it could be used by the input key.
+- Unity UI: UI Boxes: Fixed an issue where 'Ok' and 'Cancel' buttons could be used during blocked focus in unfocused UI boxes.
+- Editor: Node Editor: Fixed an issue where changing nodes while editing certain settings could lead to values being copied to the new node.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Makinom 2.20.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+New:
+- Variable Conditions: Template: 'Is Valid' setting available when using variable condition templates ('Template' condition type). If enabled, the checked template's conditions must be valid. If disabled, the checked template's conditions must be invalid.
+- Schematics: Change Scene Object: 'Custom Scene Object' settings available. Optionally create a custom scene object instead of using a scene object set up in the editor.
+- Schematics: Change Scene Object: 'Reset' setting available. Optionally reset the 'Scene Object' component to it's original setup.
+- Scene Object Components: 'Custom Scene Object' settings available. Optionally create a custom scene object in the component instead of using a scene object set up in the editor.
+- Save Game Settings: Save Game Menu, Load Game Menu: 'Select Latest' setting available. Optionally select the latest save game that was saved to when opening the save/load menu.
+
+Changes:
+- Flying Texts: All flying texts will be removed when exiting a running game. If a schematic is used to animate them, the schematic is stopped and the flying text removed after it finished (i.e. nodes with 'Execute On Stop' enabled will still execute).
+- Editor: Text Areas: Editing text and changing to a different data in the list will now automatically cancel text editing of the current settings.
+- Editor: Text Areas: The 'Left', 'Center' and 'Right' alignment buttons have been removed. You can now find the alignment options in the 'Text' text code dropdown selection.
+- Editor: Text Areas: The 'More' button has been removed, displaying all available text code selections immediately.
+- Editor: Schematics: Text Areas: Text areas in the settings of schematic nodes now automatically accept their changes when saving the schematic.
+- UI Boxes: Using 'Focus Cursor Over' to focus on the UI box below the cursor will wait for the currently focused UI box to fully open before checking.
+
+Fixes:
+- Input Keys: Key Code: Fixed an issue where switching between 'Positive Key' and 'Negative Key' input while holding the other down no longer worked.
+- Editor: Fixed an issue where removing a data entry from a list (e.g. an input key) from the editor and closing without saving could lead to the asset being deleted when opening the editor again and saving a different change.
+- Node Editor: Fixed an issue where removing a node from a layer didn't update the connections of gates going from that layer to other layers.
+- Unity UI: Content Components: Fixed an issue where HUD content added to content components wasn't updated correctly when the used HUD prefab changed.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 Makinom 2.19.1
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
